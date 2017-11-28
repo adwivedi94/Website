@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--jQuery must also be linked for Bootstrap to function-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="handlebars-v4.0.11.js"></script>
+
+  <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="main1.js" type="text/javascript"></script>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+ 
+</head>
+
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <div class="name">
+              <a class="navbar-brand" href="index.html"><img src="img/Logo.svg" id="small-logo"></a>
+            </div>
+        </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav item"><a href="index.html" class="nav-link scroll">Home</a></li>
+                <li class="nav item"><a href="index.html#about" class="nav-link scroll">About Me</a></li>
+               <li class="nav item active"><a href="index.html#portfolio" class="nav-link scroll">Portfolio</a></li>
+                <li class="nav item"><a href="index.html#work-method" class="nav-link scroll">Work Methodology</a></li>
+                <li class="nav item primary" id="resume-header"><a href="" class="nav-link scroll">Resume</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+  <div id="left-project">
+    <h1 class="heading" id="project-heading" data-aos="fade" data-aos-easing="ease-in">FINGO PARTNER</h1>
+    <small id="tag-line" data-aos="fade" data-aos-easing="ease-in">Manage your investors and improve your sales</small>
+  </div>
+    <div id="product-selection-container">
+      <div class="container-fluid">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <h2 class="main-headings">QUICK FACTS</h2>
+        <br><br>
+          <ul>
+          <li id="facts-li">Role: Associate Product Manager</li>
+          <li id="facts-li">Timeline: February 2017 to July 2017</li>
+          <li id="facts-li">Client: Aditya Birla Sun Life Mutual Fund</li>
+          <li id="facts-li">Teammates: Sijo Joseph (Design Lead), Pooja Karkhanis (UX Designer), Ansu Jain (Technical Lead), Aishwarya Saxena(Research Lead)</li>
+          <li id="facts-li">Skills: Research (Ethnographic + Guerrilla), User Stories, Prototyping, and Product Design/Management</li>
+        </ul>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+      <br><br>
+      <div class="container-fluid">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <h2 class="main-headings">PROBLEM</h2>
+          <p id="problem-para"><br>Aditya Birla has over 10,000 Independent Financial Advisors (IFAs), however, 80% of their sales comes from only 20% of the IFAs. They are failing to engage the IFAs. On research, we found out that the IFAs (1) cannot use any of their portals to make informed decision about the funds to sell to their investors, (2) cannot manage their customers / investors at all and (3) Aditya Birla did not have a competitive edge on the benefits that are provided by other mutual fund houses.</p>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="main-headings">SOLUTION</h2>
+          <p id="problem-para"><br>To solve this problem, we decided to create a mobile application for Andriod and iOS that will allow the IFAs to get the latest news/trends as well as keep up with their investors and sales. In this application, there will also be tools included that can help the IFAs make a sale in case they do not know the funds they need to sell to the investor at any given point of time. We also decided that there has to be an engaging factor in terms of a Loyalty Program that will make the benefits visible to the IFAs. </p>
+        </div> 
+        <div class="col-sm-2"></div> 
+        <br><br>      
+      </div>
+
+
+      <div class="container-fluid">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <img src="img/Solution-FinGo.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment-1">
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+
+<!--       SECOND SECTION-->  
+
+          <div class="container-fluid">
+            <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                  <h2 class="main-headings">USER RESEARCH &amp; MARTKET SEGMENTATION</h2>
+                  <p id="problem-para">
+                  <br>
+                  We conducted user research on a random selection of the IFA list provided to us by Aditya Birla. Through this, we were able to segment thm into 4 broad categories as seen below. We used the matrix below to map out the goals each segment needs so that it can be included in the design of the application.</p>
+                  <img src="img/MarketSegmentation_FinGo.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+              </div>
+            <div class="col-sm-2"></div>       
+          </div>
+  <br>
+  <br>
+
+
+  <!-- THIRD SECTION -->
+
+         <div class="container-fluid">
+            <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                  <h2 class="main-headings">SOLUTION DESIGN</h2>
+                  <p id="problem-para">
+                    <br>
+                    Once the market segmentation was done, we made user stories on the personas of the 4 broad categories of the IFAs we had interviewed. During the creation of these user stories, we got the main feature list for the application ready - <br><br>
+                    <img src="img/User-Stories.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+                    <ul>
+                      <li id="facts-li">Investor Module - This will show the information that the IFA might need to see about their investors.<br>
+                        <img src="img/inv.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+                      </li>
+                      <li id="facts-li">Product Module - This feature will help the IFAs see all the information about the products being offered by ABSL whenever they want.<br><br>
+                      <img src="img/product.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+                    </li>
+                      <li id="facts-li">Sales Tools - These are the calculators that an IFA with a small investor base can use to sell products better and faster.<br>
+                      <img src="img/sales.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+                    </li>
+                      <li id="facts-li">Data Analytics Dashboard - This module caters to all the insights an IFA may need in terms of investor activity, their own sales, product performance, etc., to sell better and manage their investors.<br>
+                      <img src="img/dashboard.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+                    </li>
+                      <li id="facts-li">Loyalty Program - The features of this module will let the IFA know the benefits they can enroll for depending on the sales that are done by them at a quarterly basis.<br>
+                      <img src="img/loyalty.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment">
+                    </li>
+                    </ul>
+                  </p>
+                  <!-- <img src="img/MarketSegmentation_FinGo.png" id="market-segment"> INCLUDE A PICTURE OF THE USER STORIES HERE--> 
+                  <p id="problem-para">
+                    After the features were validated, the information architecture for the entire application was made and sent to Aditya Birla for approval. During this time, the tech team also made a list of the APIs that will be needed from Aditya Birla's side. As the Asssociate Product Manager, I sat down with the entire team to finalize the timelines for the development of the application. There would be 5 one month sprints in which a module will be tackled for both Android and iOS.<br>After the approval from Aditya Birla was received, the Design team started working on the visual designs for the application and the tech team started working on the technical architecture. Everyday, they would be explained a module in depth and clarifiation would be provided in case it is needed.
+                  </p>
+                  <!-- <img src=""> -->
+              </div>
+            <div class="col-sm-2"></div>       
+        </div>
+    <div class="container-fluid">
+      <h2 class="main-headings">FINAL DESIGN</h2>
+      <div class="col-sm-8" id="para-format">
+        <p id="left-para"><br>The Visual designs for the application were made keeping the brand guidelines, the basic standards for iOS and Android in mind. The main idea behind all the designs was to ensure that decision making for the IFA is not hard.<br><br>Another thing we ensured was that the card layout needs to be strictly followed so that the information can be easily broken down else it can be overwhelming.<br><br>
+        </p>
+        <p id="left-para-second">We used a lot of data visualizations to depict the content in an engaging manner.<br><br>There was also strict information disclosure principles that were followed to make sure that the IFA gets the most important details in the beginning itself and then, if he/she wants to explore more, then only they will have to click on the buttons. The research team helped us a lot with proritizing the information based on a survey they conducted with the IFAs.<br><br>Apart from that, Loyalty Program was given importance as it was a new feature that was being introduced to the IFAs and initially in the first phase it would be display only section and later, all the other functionality would be introduced depending on how well it was reeceived by the IFAs.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/fingo-main.png" data-aos="fade" data-aos-easing="ease-in" id="right-picture-fingo">
+      </div>
+    </div>
+</body>
+
+ <script>
+ AOS.init();
+</script>

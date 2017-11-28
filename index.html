@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--jQuery must also be linked for Bootstrap to function-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="handlebars-v4.0.11.js"></script>
+
+  <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<!--   <script src="scroll.js"></script>
+ -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+
+<!--  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+ <script src="main.js" type="text/javascript"> </script>
+
+</head>
+
+<body>
+
+  <!-- Navigation / Header -->
+
+  <!-- Navigation-->
+
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"> <img src="img/Logo.svg" id="small-logo"></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#work">Work Methodology</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#work">Work Methodology</a></li>
+              <li><a href="#resume">Resume</a></li>
+            </ul>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header" id="main-containter">
+              <div class="name">
+              <a class="navbar-brand" href="index.html"> <img src="img/Logo.svg" id="small-logo"></a>
+            </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav item active"><a href="#home" class="nav-link scroll">Home</a></li>
+                <li class="nav item"><a href="#about" class="nav-link scroll">About Me</a></li>
+                <li class="nav item"><a href="#portfolio" class="nav-link scroll">Portfolio</a></li>
+                <li class="nav item"><a href="#work-method" class="nav-link scroll">Work Methodology</a></li>
+                <li class="nav item primary" id="primary"><a href="" class="nav-link scroll">Resume</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+  <!-- Starting Content with Logo and Position -->
+  <div class="containter-fluid">
+    <div class="row" id="home">
+      
+      <div class="col-sm-6" id="left">
+          <svg width="304px" height="250px" viewBox="0 0 304 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="" class="pull-right" id="logo">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+            <title>Logo</title>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Home-Page---Main" transform="translate(-355.000000, -434.000000)" stroke-width="7" stroke="#FAFAFA">
+                    <g id="Group" transform="translate(360.000000, 443.000000)">
+                        <g id="Logo">
+                            <path d="M177.679993,237.199997 C242.573451,237.199997 295.179993,184.100969 295.179993,118.599998 C295.179993,53.099028 242.573451,0 177.679993,0 L178.261395,66.3376398" id="Oval" class="MwgOSwBY_0"></path>
+                            <path id="Triangle" d="M80.6072788,236.555146L0,235.995173L88.5,1L180,238.199997" class="MwgOSwBY_1"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+          </svg>
+      </div>
+
+        <div class="col-sm-6" id="right">
+         <h1 id="heading">Aishwarya Dwivedi</h1>
+         <small id="post">Product Manager and Service Designer</small>
+        </div>
+      
+        </div>
+      </div>
+        <div class ="col-sm-12" id="more">
+          <img src="img/more.svg" id="more-icon">
+        </div>
+  </div>
+
+
+  <!-- About Me Section -->
+  <div class="col-sm-12 second-right" id="about" >
+        <h2 class='main-headings'>ABOUT ME</h2>
+      </div>
+      <!-- <div class="col-sm-4">
+        <img src="img/profile.jpg" id="profile-picture">
+      </div>-->        
+      <div class="col-sm-12 headings">
+        <p>Hi! I’m Aishwarya, a person striving to create better experiences.<br> <br>A good design is a combination of technology and empathy. I focus on taking a user-centered approach to my design, placing emphasis on the users, developers, as well as the company I am designing for.<br> <br> To me, it is about finding innovative, implementable and cost effective solutions that benefit not just the end users but all stakeholders. <br><br>You will find me as a person who enjoys taking up new challenges, getting excited with every new learning I encounter. I desire perenial learning. Achieving brilliance in every aspect of my life is what I constantly strive for.</p>
+      </div>
+
+
+      <!-- Projects / Portfolio -->
+      <div class="col-sm-12 second-right" id="portfolio">
+        <h2 class="main-headings" >PORTFOLIO</h2>
+      </div>      
+      <div class="col-sm-12 headings" id="project">
+        <div class="row">
+          <div class="col-sm-4" id="image1">
+            <a href="contentpage_FinGo.html"><img src="img/Group7.png" class="first-row image" data-aos="zoom-in"></a>
+            <h5 id="project-name">FinGo Partner</h5>
+          </div>
+          <div class="col-sm-4">
+            <a href="contentpage_ActiveAccount.html"><img src="img/Group8.png" class="image" id="image2" data-aos="zoom-in"></a>
+            <h5 id="project-name">Active Account</h5>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-sm-4 headings">
+            <a href="contentpage_PNC.html"><img src="img/Group9.png" class="first-row image" id="image3" data-aos="zoom-in"></a>
+            <h5 id="project-name">PNC Challenge</h5>
+          </div>
+          <div class="col-sm-4 headings">
+            <a href="contentpage_Tribe.html"><img src="img/Group10.png" class="image" id="image4" data-aos="zoom-in"></a>
+            <h5 id="project-name">Tribe</h5>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Work Methodology -->
+      <div class="col-sm-12 second-right" id="work-method">
+        <h2 class="main-headings">WORK METHODOLOGY</h2>
+      </div> 
+      <div class="headings">
+        <img src="img/WorkMethodology.png" id="work">
+      </div>
+      <div class="col-sm-12" class="headings" id="work-content">
+        <br><br>
+        <p>As a Product Manager, I tackle every problem that I face in an Agile fashion by combining it with the Double Diamond Process of Design Thinking.<br><br> 
+        To me, every product must be meaningful and this means that I design keeping the users in mind. I always ask myself what do the users really want, how is the market space right now and most importantly, what can I do to make a better product or a better experience? <br><br>
+
+        Leading Cross Functional Teams in the past has taught me that I need to align the team towards a particular goal that we set out to achieve. This is why, I always let data support me.<br><br>
+
+        I understand how important it is for companies to make a solution but at the same time, make sure that they achieve their goals. This is why, I always apply triple constraint of time, budget and the scope I need to tackle. I run metrics at the end of the product to ensure that it is adding value not only to the users but also the company.<br><br> </p>
+      </div>
+      <div>
+        <button class="btn-primary primary" id="primary-css">VIEW RESUME</button>
+      </div>
+</body>
+
+ <script>AOS.init();</script>

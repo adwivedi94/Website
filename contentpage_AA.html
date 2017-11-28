@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--jQuery must also be linked for Bootstrap to function-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="handlebars-v4.0.11.js"></script>
+
+  <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="main.js" type="text/javascript"></script>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+ 
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <div class="name">
+              <a class="navbar-brand" href="index.html"> <img src="img/Logo.svg" id="small-logo"></a>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About Me</a></li>
+              <li><a href="index.html#portfolio">Portfolio</a></li>
+              <li><a href="index.html#work">Work Methodology</a></li>
+              <li><a href="#resume">Resume</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+  <div id="left-project">
+    <h1 class="heading" id="project-heading">ACTIVE ACCOUNT</h1>
+  </div>
+    <div id="product-selection-container">
+      <br><br>
+      <p>A US $41 billion corporation, the Aditya Birla Group is in the League of Fortune 500. It is anchored by an extraordinary force of over 120,000 employees, belonging to 42 different nationalities. Aditya Birla Financial Services wanted to develop a mobile application that would help your savings earn for you.</p>
+      <br><br>
+      <div class="container-fluid">
+        <div class="col-sm-4">
+          <h2 class="main-headings">PROBLEM</h2>
+          <p>Usually, everyone thinks twice while investing in a liquid fund. They also think it is time-consuming and taxing. The main problem was to make the interaction as easy as possible so that the users could invest the money quickly because Aditya Birla does the research for them about the liquid funds beforehand itself. They just need to select the scheme type to invest. </p>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="main-headings">TARGET AUDIENCE</h2>
+          <p>The app is targeted towards users in India within the age group of 22 years - 65 years with 78% being male users and the rest being female users. The user of the app can be anyone who wants to  increase his savings, save tax as well as gives liquidity because its an open-ended fund.</p> 
+        </div>
+        <div class="col-sm-4">
+          <h2 class="main-headings">CLIENT REQUIREMENT</h2>
+          <p>The client requirements for the app were rather simple, the application needed to be simple witha clean design. It needed to motivate the user to invest. The interaction to invest and withdraw had to be simple. The only part that was text heavy in this application was the fact that the users needed to constantly update their FATCA form (Foreign Account Tax Compliance Act)</p>
+        </div>        
+      </div>
+      <div class="container-fluid">
+       <h2 class="main-headings">MARKET REQUIREMENTS</h2>
+       <br>
+       <p>Our user research showed that there are 4 kinds of users:</p><br><br>
+        <div class="col-sm-3">
+        <p>Target Group 1: These are the users who have a PAN card/Aadhar card, are KYC compliant and already have a Folio with Aditya Birla.</p>
+      </div>
+      <div class="col-sm-3">
+        <p>Target Group 2: These are the users who have a PAN card/Aadhar Card, are KYC compliant but do not have a Folio with Aditya Birla.</p>
+      </div>
+       <div class="col-sm-3">
+        <p>Target Group 3: Users in this category do have a PAN card/Aadhar card but are not KYC compliant.</p>
+      </div>
+      <div class="col-sm-3">
+      <p>Target Group 4: These are the people who do not have a PAN Card/Aadhar card at all.</p>
+    </div>
+  </div>
+  <br>
+  <br>
+    <div class="container-fluid">
+      <h2 class="main-headings">WIREFRAMES</h2>
+      <div class="col-sm-4">
+        <img src="img/AA_Wireframes_1.png" data-aos="fade" data-aos-easing="ease-in" class="pull-left">
+      </div>
+      <div class="col-sm-8" id="para-format">
+        <p>My wireframes were designed for all these users. Since all the users were different, we just needed to ensure that there are common sections to the mobile application that were modular and would change depending on the information which we got from the PAN Card. The sections that were made modular are: <br>KYC section<br>Creation of Folio​<br>Rest of the sections in the app were kept the same for everyone. To make the transaction easier, I introduced the swipe feature. To invest, one must swipe right and to withdraw, one must swipe left. The wireframes for the same can be seen below.</p>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <h2 class="main-headings">VISUAL DESIGNS</h2>
+      <div class="col-sm-8" id="para-format">
+        <p>The Visual Designs were made in the brand colors which were maroon and yellow. We stressed more on the maroon and used white backgrounds to keep the look of the application very neat.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/AA_VD_1.png" class="pull-right" data-aos="fade" data-aos-easing="ease-in">
+      </div>
+    </div>
+</body>
+
+ <script>
+ AOS.init();
+</script>

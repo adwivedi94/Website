@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--jQuery must also be linked for Bootstrap to function-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="handlebars-v4.0.11.js"></script>
+
+  <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="main1.js" type="text/javascript"></script>
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+ 
+</head>
+
+<body>
+   <nav class="navbar navbar-inverse navbar-fixed-top" id="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <div class="name">
+              <a class="navbar-brand" href="index.html"> <img src="img/Logo.svg" id="small-logo"></a>
+            </div>
+        </div>
+       <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav item"><a href="index.html" class="nav-link scroll">Home</a></li>
+                <li class="nav item"><a href="index.html#about" class="nav-link scroll">About Me</a></li>
+               <li class="nav item active"><a href="index.html#portfolio" class="nav-link scroll">Portfolio</a></li>
+                <li class="nav item"><a href="index.html#work-method" class="nav-link scroll">Work Methodology</a></li>
+                <li class="nav item primary" id="resume-header"><a href="" class="nav-link scroll">Resume</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+  <div id="left-project">
+    <h1 class="heading" id="project-heading" data-aos="fade" data-aos-easing="ease-in">TRIBE</h1>
+    <small id="tag-line" data-aos="fade" data-aos-easing="ease-in">A Lending Platform for anyone and everyone</small>
+  </div>
+    <div id="product-selection-container">
+      <div class="container-fluid">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+        <h2 class="main-headings">QUICK FACTS</h2>
+        <br><br>
+          <ul>
+          <li id="facts-li">Role: User Experience Designer</li>
+          <li id="facts-li">Timeline: August 2016 to June 2017</li>
+          <li id="facts-li">Client: Aditya Birla Sun Life Mutual Fund</li>
+          <li id="facts-li">Teammates: Sandeep Reddy (Design Lead), Anupam Chandra (Technical Lead)</li>
+          <li id="facts-li">Skills: Research (Ethnographic + Guerrilla), User Stories, Prototyping, and Product Design/Management</li>
+        </ul>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+      <br><br>
+      <div class="container-fluid">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <h2 class="main-headings">PROBLEM</h2>
+          <p id="problem-para"><br>Tribe is a platform that allows people from all walks of life to take a loan. The issue with the website was that people were not completing the entire process at all. It was not intuitive at all.</p>
+        </div>
+        <div class="col-sm-4">
+          <h2 class="main-headings">SOLUTION</h2>
+          <p id="problem-para"><br>We redesigned the entire flow of the website to ensure that there was no breakdown in the flow. We also made sure that some of the steps were shortened to make the process smoother.</p>
+        </div> 
+        <div class="col-sm-2"></div> 
+        <br><br>      
+      </div>
+
+      <div class="container-fluid">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <img src="img/Solution-Tribe.png" data-aos="fade" data-aos-easing="ease-in" id="market-segment-1">
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+
+<!-- SECOND SECTION-->  
+
+          <div class="container-fluid">
+            <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                  <h2 class="main-headings">FINDING THE ISSUES</h2>
+                  <p id="problem-para">
+                  <br>
+                  We conducted user research on a random selection of users from the list that Tribe had given to us. We not only conducted think alouds but also conducted heuristic evaluation for the entire website.<br><br>After the evaluation was done, the main pain points or breakdowns of the entire flow was then listed down. The issues were: 
+                  <ul>
+                    <li id="facts-li">Home Page</li>
+                    <li id="facts-li">Sign Up Flow</li>
+                    <li id="facts-li">Deal Room</li>
+                    <li id="facts-li">Insights</li>
+                  </ul>
+                  </p>
+                  <img src="img/Tribe_Old.png" data-aos="fade" data-aos-easing="ease-in" id="tribe">
+              </div>
+            <div class="col-sm-2"></div>       
+          </div>
+  <br>
+  <br>
+
+
+  <!-- THIRD SECTION -->
+
+         <div class="container-fluid">
+            <div class="col-sm-2"></div>
+              <div class="col-sm-8">
+                  <h2 class="main-headings">SOLUTION DESIGN</h2>
+                  <p id="problem-para">
+                    <br>
+                    Now that we knew where the issues in the flow were, we decided to make take the Tribe Loan flow and optimize that. This way, we will cover all the steps from the home page and manage to address all the problems that are encountered by the users in the first place.<br><br>The changes that we did in the entire flow are as follows:<br>
+                    <ul>
+                      <li id="facts-li">Home Page
+                        <p id="problem-para">
+                          - I used the banner in a minimalistic way where I just had one action button that would take them to the sign up page. <br>
+                          - I used images looked more professional to give a better look to the page. <br>
+                          - I used words that the users would be familiar with. 
+                          - Immediately after the banner, I highlighted the unique selling points of Tribe to convince the users to sign up. <br>
+                          - I then focused on telling the users about the way Tribe worked, the services provided by Tribe as well as the domains the Tribe is involved in.
+                          <br> Through the Home Page, I wanted the user to be well informed about Tribe before he signed up. 
+                        </p>
+                        <img src="img/Tribe_Home_Page_02.png" data-aos="fade" data-aos-easing="ease-in" id="tribe"><br><br>
+                      </li>
+                      <li id="facts-li">Sign Up Flow
+                        <p id="problem-para">
+                          - I decided to optimize the sign up flow because the drop-off rate at this stage was the highest. <br>
+                          - In the previous flow, there were too many details that were being collected. I decided to get rid of that and ask the details in the profile creation page later in the flow. <br>
+                          This way, the sign up rate would increase because they just had to give their email ID and what they are signing up as to join the Tribe community. 
+                        </p>
+                        <img src="img/Tribe_Sign_Up_Option_2.png" data-aos="fade" data-aos-easing="ease-in" id="tribe"><br><br>
+                      </li>
+                      <li id="facts-li">Dashboard
+                        <p id="problem-para">
+                          - Earlier, the dashboard was only related to the Insights tab. I changed this and created a dashboard where the user will get to know about the activity in his account like his deals, etc. <br>
+                          - I also used icons to display the badges because it was a new feature that was introduced by Tribe. Later, when badges become more common, the size of the icons can be resuced and another newly feature can be highlighted. 
+                          <br> This works out really well because it brings the user upto speed with everything that has changed since the last time he logged in. 
+                        </p>
+                        <img src="img/Tribe_Dashboard_Overview_01.png" data-aos="fade" data-aos-easing="ease-in" id="tribe"><br><br>
+                      </li>
+                      <li id="facts-li">Deal Room
+                        <p id="problem-para">
+                          - There was a summary of the deals given in the beginning of the section. <br>
+                          - There was one clear action button which was to create a new deal. 
+                          <br> - Earlier, all the tabs were listed horizontally, I changed that to a vertical navigation menu on the left.
+                          <br> With this design, there was a lot of noise that was removed.
+                        </p>
+                        <img src="img/01_Create_New_Deal.png" data-aos="fade" data-aos-easing="ease-in" id="tribe"><br><br>
+                      </li>
+                      <li id="facts-li">Tribe Flexi Loan
+                        <p id="problem-para">
+                          - Initially, when you wanted to start a new deal, the pop-up would tell you all the different kinds of deal and also give you a little information about them, so that the user can make a well informed decision. <br>
+                          - The user can name the deals as well so that they could remember their different deals. <br>
+                          - All the details that needs to be filled out was done in a more interactive, efficient manner through the help of scroll bars and radio buttons. However, the user could always write the number directly.<br>
+                          - As soon as the main details were filled out, the user would be notified about the tentative repayment amount so that in case he is not comfortable with it, he can change the amount of loan he is asking for or even discard the deal without spending too much in the process. <br>
+                          - The personal details, company details and the insights would be populated here only once. After this, the database will prefill them whenever a new deal is created. This information will also be used in the user profile so the user does not have to fill the same details repeatedly. <br>
+                          This flow is a more optimized and does not need the user to fill unnecessary information that he does not need or want to show to potential investors or Tribe in general.
+                        </p>
+                        <img src="img/04_Loan_Details_Page.png" data-aos="fade" data-aos-easing="ease-in" id="tribe"><br><br>
+                      </li>
+                      <li id="facts-li">Insights
+                        <p id="problem-para">
+                          - Insights is Tribe's USP. However, it requires a lot of integration with the existing system that a user might already have set up. The main idea was to make this process smoother and easier for the user. <br>
+                          - To do this, I introduced a system where they can easily see the insights they can add with the help of one action button. <br>
+                          - Once that was added, I also introduced an option to disable the insight in case the user does not think it is relavant for the investor to see the insight. <br>
+                          - In the home page, since there is constant tracking of the insight, Tribe gives inferences as well. This makes it more user friendly for a user who is not tech-savvy to understand what is happening in his business and then take decisions accordingly.<br>
+                          The simplification of the Insights feature had a positive impact and the user did appreciate the freedom to disable an insight and even delete it because earlier, this option was not given and the users thought that it will reduce their chances of getting a deal which made them very anxious. 
+                        </p>
+                        <img src="img/11_Insights New Trader Added Page.png" data-aos="fade" data-aos-easing="ease-in" id="tribe"><br><br>
+                      </li>
+                    </ul>
+                  </p>
+                  <!-- <img src="img/MarketSegmentation_FinGo.png" id="market-segment"> INCLUDE A PICTURE OF THE USER STORIES HERE--> 
+                  <p id="problem-para">
+                    After the entire design and flow was modeled, we conducted A/B testing with the new designs. The response was positive and the users were very happy with the new professional look that Tribe had. They also mentioned that they got information when they wanted which made them make more informed decisions faster then usual. We also noticed that the number of deals created increased and 36.5% of the deals came from people who ran small shops and are not technologically inclined. Tribe Flexi Loan also performed well and the users spent more time in curating the loan they are asking for. This worked out well because 76% of the loans were approved and accepted by the users. <br><br>
+                  </p>
+            </div>
+            <div class="col-sm-2"></div>       
+        </div>
+    </div>
+</body>
+
+ <script>
+ AOS.init();
+</script>
