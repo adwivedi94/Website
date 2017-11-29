@@ -1,12 +1,8 @@
 
 $(document).ready(function() {
 
-	// var url = location.pathname;
 
- //    // EXECUTE IN THE HOME PAGE ONLY
-
-	// if("url:contains('index.html')")
-	// {
+		// Preventing the normal and starck scrolling and then implementing smooth scrolling
 
 		var scrollLink = $(".scroll");
 
@@ -18,12 +14,16 @@ $(document).ready(function() {
 			},1000); 
 		});
 
+		// Scroll to the about section when the downward arrow is clicked on
+
 		$("#more-icon").click(function(){
 
 			$("body,html").animate({
 				scrollTop:$("#about").offset().top
 			},1000);
 		});
+
+		// Changing the active status on the header as you scroll
 
 		$(window).scroll(function() {
 		    var scrollbarLocation = $(this).scrollTop();
@@ -41,16 +41,12 @@ $(document).ready(function() {
 		});
 	// }
 
-	// OTHER FUNCTIONS
+	// Opens PDF at the click of a button - pdf resume
 
 	$(".primary").click(function(){
 
 		window.open('img/portfolio.pdf');
 	});
 
-	// $("resume-header").click(function(){
-
-	// 	window.open('img/portfolio.pdf');
-	// });
 
 });

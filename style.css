@@ -1,19 +1,24 @@
+
+/*Font*/
 @font-face {
   font-family: 'Avenir Next';
   src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
   }
 
+/*Disabling Horizontal Scroll*/
 html, body {
     max-width: 100%  !important;
     overflow-x: hidden !important;
 }
 
+/*Left part with the logo*/
 #left
 {
 	height: 95.15vh;
 	background-color: #242424;
 }
 
+/*Right Part with the Name and the position*/
 #right
 {
 
@@ -22,11 +27,12 @@ html, body {
 	background-color: #242424;
 }
 
+/*Section behind each div on the home page*/
 .second-right
 {
 	background-color: white;
-	/*height: 100vh;*/
 }
+
 
 #second-left
 {
@@ -35,7 +41,7 @@ html, body {
 	border-right-color: #E5E5E5;
 }
 
-
+/*Fade In effect*/
 @-webkit-keyframes fadeIn 
 { 
 	from 
@@ -58,6 +64,8 @@ html, body {
 	{ opacity:1; } 
 }
 
+
+/*Name and the position of the main area near the logo*/
 #heading 
 {
 	  margin-top: 50%;
@@ -81,11 +89,14 @@ html, body {
 	  animation-duration: 4s;
 }
 
+/*Logo*/
 #logo
 {
 	margin-top: 37%;
 }
 
+
+/*Downward icon for scroll*/
 #more
 {
 	background-color: #242424;
@@ -99,6 +110,7 @@ html, body {
 	margin-bottom: 0px;
 }
 
+/*Header Icon*/
 #small-logo
 {
 	margin-left: 95%;
@@ -107,14 +119,7 @@ html, body {
 	display: inline-block;
 }
 
-
-#profile-picture
-{
-	width: 17vw;
-	height: auto;
-	margin-left: 1%;
-}
-
+/*All the headings that are centered aligned - About Me, Portfolio and Work Methodology*/
 .headings
 {
 	text-align: center;
@@ -123,6 +128,7 @@ html, body {
 	font-style: bold;
 	font-size: 16px;
 }
+
 
 .main-headings
 {
@@ -133,6 +139,8 @@ html, body {
 	font-size:20px;
 }
 
+
+/*paragraph style - generic*/
 p
 {
 	width: 60%;
@@ -143,11 +151,13 @@ p
 
 }
 
+/*Image settings with the row*/
 .first-row
 {
 	margin-right: 1%;
 }
 
+/*Methodology Picture setting*/
 #work
 {
 	align-self: center;
@@ -155,6 +165,7 @@ p
 	width: 60%;
 	height: auto;
 }
+
 
 #resume-content-heading
 {
@@ -173,6 +184,7 @@ p
 	font-size: 5px;
 }
 
+/*Primary button style*/
 #primary-css
 {
 	background-color: #B71132;
@@ -183,13 +195,11 @@ p
 	margin-bottom: 10vh;
 }
 
-
+/*Hover Image setting*/
 .image
 {
 	filter: grayscale(100%);
-	/*width: 10%;
-	height: auto;
-*/}
+}
 
 .image:hover
 {
@@ -197,6 +207,8 @@ p
 	
 }
 
+/*Project section with the card setting*/
+/*First Image setting with margin*/
 #project
 {
 	margin-left: 16%;
@@ -207,7 +219,7 @@ p
 	margin-left: 9%;
 }
 
-
+/*Heading and Post Settings*/
 h1
 {
 	font-weight: 350;
@@ -219,6 +231,9 @@ small
 	font-weight: 200;	
 	letter-spacing: 2px;
 }
+
+
+/*Logo SVG Animation*/
 
 .MwgOSwBY_0
 {
@@ -257,6 +272,8 @@ small
 	}
 }
 
+
+/*Project Page Label*/
 #left-project
 {
 	height: 50.15vh;
@@ -289,6 +306,8 @@ small
 	color: #FAFAFA;
 }
 
+/*
+Listing element section in the Highlights*/
 #facts-li
 {
 	padding-bottom: 1%;
@@ -297,6 +316,7 @@ small
 	font-style: normal;
 }
 
+/*
 #right-li
 {
 	padding-bottom: 1%;
@@ -304,7 +324,9 @@ small
 	font-family: Nunito;
 	font-style: normal;
 }
+*/
 
+/*Problem and Solution paragraph setting*/
 #problem-para
 {
 	width: 98%;
@@ -314,7 +336,7 @@ small
 
 }
 
-
+/*Image setting*/
 #market-segment
 {
 	width: 50%;
@@ -329,12 +351,15 @@ small
 	margin-left: 15%;
 }
 
-#challenge
+
+
+/*#challenge
 {
 	width: 150%;
 	height: auto;
-}
+}*/
 
+/*Image setting, tribe project*/
 #tribe
 {
 	margin-left: 5%;
@@ -342,11 +367,14 @@ small
 	height: auto;
 }
 
-#main-container
+
+/*#main-container
 {
 	display: inline-block;
-}
+}*/
 
+
+/*Final Design Picture for FinGo Parter*/
 #right-picture-fingo
 {
 	width: 100%;
@@ -355,6 +383,7 @@ small
 	margin-bottom: 10%;
 }
 
+/*Final Section Setting*/
 #left-para
 {
 	width: 70%;
@@ -367,7 +396,7 @@ small
 	width: 70%;
 }
 
-
+/*Media Setting for iPad*/
 @media (max-width: 768px)
 {
 
@@ -452,6 +481,8 @@ small
 
 }
 
+
+/*Screen setting for mobile*/
 @media (max-width: 599px) 
 {
 

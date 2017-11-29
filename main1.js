@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-	// OTHER FUNCTIONS
+	// OTHER FUNCTIONS - Opens a Pdf at the click of the button
 
 	$(".primary").click(function(){
 
